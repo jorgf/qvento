@@ -1,12 +1,12 @@
 # QVENTO.py
 
 ## Sobre 
-Esse projeto está sendo desenvolvido para a disciplina de Análise das estruturas I (Engenharia Civil). Tem por objetivo usar python para modelar comportamentos estruturais e automatizar calculo de ação do vento.
+Esse projeto está sendo desenvolvido para a disciplina de Análise das estruturas I (Engenharia Civil). Tem por objetivo usar python para modelar comportamentos estruturais e automatizar cálculo de ação do vento.
 
-- O procedimento leva em consideração as diretrizes da NBR 6123 - ações de vento.
+- O procedimento leva em consideração as diretrizes da NBR 6123 - ações de vento e as notas de aula.
 
 ## Executando o programa
-1. Para executar esse programa, primeiro é preciso configurar o arquivo input.json, com os dados de entrada para o problema estudado. Por padrão, temos o exemplo:
+1. Para executar esse programa, primeiro é preciso configurar o arquivo 'input.json', com os dados de entrada para o problema estudado. Por padrão, temos o exemplo:
 ```
     "velocidade_basica": 30,
     "parametro_meteorologico":{
