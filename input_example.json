@@ -1,0 +1,14 @@
+{
+    "velocidade_basica": 30,
+    "categoria":4,
+    "classe":1,
+    "s1": 1.0,
+    "s3": 1.0,
+    "maior_lado": 20,
+    "menor_lado": 15,
+    "altura": 30,
+    "pe_direito": 10,
+    "ca_menor": 1.09,
+    "ca_maior": 1.25
+
+}
