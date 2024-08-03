@@ -9,11 +9,8 @@ Esse projeto está sendo desenvolvido para a disciplina de Análise das estrutur
 1. Para executar esse programa, primeiro é preciso configurar o arquivo 'input.json', com os dados de entrada para o problema estudado. Por padrão, temos o exemplo:
 ```
     "velocidade_basica": 30,
-    "parametro_meteorologico":{
-        "b":0.73,
-        "p":0.16,
-        "fr":0.98
-    },
+    "categoria":4,
+    "classe":1,
     "s1": 1.0,
     "s3": 1.0,
     "maior_lado": 20,
@@ -26,7 +23,12 @@ Esse projeto está sendo desenvolvido para a disciplina de Análise das estrutur
 Onde:
     
 - Velocidade básica do vento é definido pelo mapa de isopletas (tabela da NBR 6123);
-- Os parâmetros meteorológicos são definidos através da classe da edificação e da categoria da viziinhança (tabela da NBR 6123);
+- Categoria e classe serão utilizados para a determinação dos parâmetros meteorológicos (tabela da NBR 6123); Para preencher corretamente considere valor inteiros para os dois parâmetros. Portanto:
+```
+categoria pode assumer valores entre 1 e 5 inclusos (correspondete a categoria definida na norma)
+classe pode assumir valores entre 1 e 3 sendo:
+1 para classe A, 2 para classe B e 3 para classe C
+```       
 - s1 e s3 são parâmetros definidos em norma;
 - maior_lado corresponde ao maior lado, em planta, da edificação;
 - menor_lado corresponde ao menor lado, em planta, da edificação;
