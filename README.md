@@ -25,7 +25,7 @@ Onde:
 - Velocidade básica do vento é definido pelo mapa de isopletas (tabela da NBR 6123);
 - Categoria e classe serão utilizados para a determinação dos parâmetros meteorológicos (tabela da NBR 6123); Para preencher corretamente considere valor inteiros para os dois parâmetros. Portanto:
 ```
-categoria pode assumer valores entre 1 e 5 inclusos (correspondete a categoria definida na norma)
+categoria pode receber valores entre 1 e 5 inclusos (correspondete a categoria definida na norma)
 classe pode assumir valores entre 1 e 3 sendo:
 1 para classe A, 2 para classe B e 3 para classe C
 ```       
